@@ -3,10 +3,14 @@ import IdCard from "./components/IdCard";
 import Greetings from './components/Greetings';
 import Random from './components/Random';
 import BoxColor from './components/BoxColor';
+import LikeButton from './components/LikeButton';
 
 function App() {
   return (
     <div className="App">
+    
+    
+    
     <div>
       <Greetings lang="de">Ludwig</Greetings>
       <Greetings lang="fr">François</Greetings>
@@ -18,6 +22,14 @@ function App() {
       <BoxColor r={255} g={0} b={0} />
       <BoxColor r={128} g={255} b={0} /> 
     </div>
+
+    <div>
+      <LikeButton />
+      <LikeButton />
+    </div>
+    
+  
+
       <div>
         <div>Idcard</div>
         <IdCard
